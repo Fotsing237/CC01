@@ -1,0 +1,31 @@
+Bon après-midi à tous,
+
+Le contrôle continu continu ce jeudi après-midi, 4 heures d'évaluation sur la programmation multicouches sous la .net.
+
+Cette fois vous êtes convié à travailler en collaboration avec un membre de votre groupe de projet sur la couche BO. 
+Vous devez donc lui envoyer une invitation Github pour sa participation. 
+
+Ce dernier devra cloner votre projet et créé toutes les classes BO de l'application, puis posser le projet, le tout en moins de 2h. 
+Si vous n'êtes pas satisfait, vous devez l'interpeller pour ses manquements jusqu'à ce qu'il finisse son travail à votre guise. 
+
+Vous ne pouvez participer qu'à au moins un projet et au plus deux projets. Au-delà vous déclinez l'invitation.
+
+Travailler sur la couche graphique pendant que votre collaborateur travaille sur le couche métier.
+
+Vous devez également vous familiariser avec la gestion des conflits avec l'extension Github pour VS. 
+Cette vidéo vous expliquera une fois de plus le procédé https://youtu.be/UHrAg3iKoe0
+
+Le projet consiste donc à:
+- Créer une application pour produit les cartes d'étudiant comme ci-dessous.
+- Un étudiant appartient à une école.
+- Un formulaire pour créer, modifier, supprimer et rechercher, imprimer la carte de l'étudiant avec les informations nécessaires 
+- Un formulaire pour créer, modifier,  supprimer, rechercher des écoles avec les informations nécessaires (un seul logo suffira)
+- Un report pour imprimer les cartes
+- Un formulaire parent pour contrôler la navigation sur l'application 
+- Le stockage de données en json dans un répertoire DATA courant au projet Windows Forms.
+- Le code barre sur la carte est le matricule encodé de l'étudiant et stocké sous la forme d'une image. 
+   Faites des recherches pour réaliser ce procédé.
+- Pousser le tout dans votre dépôt Github avant 17h demain.
+- Procurez vous d'une connexion internet pour le CC.
+
+Merci !
