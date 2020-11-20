@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using CC01.BO;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace CC01.DAL
 {
+
     public class SchoolDAO
     {
         private static List<School> schools;

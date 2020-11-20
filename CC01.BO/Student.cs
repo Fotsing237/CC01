@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CC01.BO
 {
-    class Etudiant
+    [Serializable]
+    class Student
     {
         public string Name { get; set; }
         public string Matricule { get; set; }
@@ -16,7 +17,7 @@ namespace CC01.BO
         public string Birthdate { get; set; }
         public string Mail { get; set; }
 
-        public Etudiant(string name, string matricule, string contact, string school, string placeofBirth, string birthdate, string mail)
+        public Student(string name, string matricule, string contact, string school, string placeofBirth, string birthdate, string mail)
         {
             Name = name;
             Matricule = matricule;
@@ -29,7 +30,7 @@ namespace CC01.BO
 
         public override bool Equals(object obj)
         {
-            return obj is Etudiant etudiant &&
+            return obj is Student etudiant &&
                    Matricule == etudiant.Matricule;
         }
 
