@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CC01.BO;
+using CC01.DAL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,9 +32,9 @@ namespace CC01.BLL
         }
 
 
-        public IEnumerable<School> GetByReference(string reference)
+        public IEnumerable<School> GetByAcronym(string acronym)
         {
-            return SchoolRepo.Find(x => x.Reference == reference);
+            return schoolRepo.Find(x => x.Acronym == acronym);
         }
 
         public IEnumerable<School> GetBy(Func<School, bool> predicate)
